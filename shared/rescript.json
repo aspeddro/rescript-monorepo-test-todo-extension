@@ -1,0 +1,9 @@
+{
+  "name": "shared",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ]
+}

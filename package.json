@@ -1,0 +1,21 @@
+{
+  "name": "todo-monorepo-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rescript build -with-deps",
+    "clean": "rescript clean -with-deps"
+  },
+  "keywords": [],
+  "workspaces": [
+    "main",
+    "shared"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rescript": "file:../../home/pedro/Desktop/projects/rescript-compiler"
+  }
+}
